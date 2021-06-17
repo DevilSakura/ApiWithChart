@@ -2,7 +2,7 @@
 
 Приложение погоды с Chart.js:
 
-Поробовать [тут](htpp://http://foamy-mark.surge.sh/)
+Поробовать [тут](htpp://foamy-mark.surge.sh/ "weather-lstu")
 
 - HTML/CSS
 
