@@ -1,0 +1,170 @@
+
+.date-container {
+  width: 280px;
+  height: 190px;
+  border-radius: 35px;
+  background-color: rgba(16, 33, 54, 0.59);
+  margin: 0 auto;
+  color: $main-white-color;
+  font-family: $main-font;
+  font-weight: 400;
+  padding-top: 26px;
+}
+
+.date-container:hover {
+  transition: 200ms linear;
+  background-color: #102136;
+}
+
+.date__day {
+  text-align: center;
+  font-size: 45px;
+  letter-spacing: 1px;
+
+  color: #f7f7f7;
+  font-weight: 300;
+  margin-bottom: 5px;
+}
+
+.date__day--nth {
+  font-size: 14px;
+  vertical-align: super;
+}
+
+.date__month-time {
+  font-size: 14px;
+  display: flex;
+  height: 24px;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: flex-end;
+}
+.date__month,
+.date__time {
+  width: 130px;
+}
+.date__month {
+  text-align: right;
+}
+.date__month::after,
+.date__sunrise--time::after {
+  content: '';
+  position: absolute;
+  width: 1px;
+  height: 20px;
+  background-color: #e7e8eb;
+  margin-left: 10px;
+}
+
+.date__sun {
+  font-size: 14px;
+  display: flex;
+  width: 170px;
+  height: 40px;
+  margin: 5px auto 0px;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.date__sunrise,
+.date__sunset {
+  display: flex;
+  width: 75px;
+
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.date__month,
+.date__sunrise {
+  margin-right: 10px;
+}
+.date__time,
+.date__sunset {
+  margin-left: 10px;
+}
+.date__sunrise--icon,
+.date__sunset--icon {
+  width: 26px;
+  height: 34px;
+}
+
+@media screen and (min-width: 768px) {
+  .date-container {
+    width: 490px;
+    height: 277px;
+    padding-top: 36px;
+  }
+  .date__day {
+    font-size: 90px;
+    margin-bottom: 0px;
+  }
+  .date__day--nth {
+    font-size: 23px;
+  }
+  .date__month-time,
+  .date__sun {
+    font-size: 18px;
+  }
+  .date__sun {
+    margin-top: 20px;
+  }
+
+  .date__month,
+  .date__sunrise {
+    margin-right: 15px;
+  }
+  .date__time,
+  .date__sunset {
+    margin-left: 15px;
+  }
+  .date__sun {
+    width: 194px;
+  }
+  .date__month::after,
+  .date__sunrise--time::after {
+    margin-left: 15px;
+  }
+  .date__sunrise,
+  .date__sunset {
+    width: 85px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .date-container {
+    width: 601px;
+    height: 277px;
+    margin: 0px;
+    padding: 50px 63px 96px 110px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+  }
+  .date__day {
+    text-align: left;
+    width: 430px;
+    margin: 0px;
+  }
+  .date__month-time {
+    display: flex;
+    height: 22px;
+    width: auto;
+    margin: 0;
+    justify-content: left;
+    align-items: flex-end;
+  }
+  .date__month {
+    width: auto;
+  }
+  .date__time {
+    width: 85px;
+  }
+  .date__month {
+    text-align: left;
+  }
+  .date__sun {
+    height: 22px;
+    margin: 0px;
+  }
+}

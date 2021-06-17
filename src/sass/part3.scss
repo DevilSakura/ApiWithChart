@@ -1,0 +1,9 @@
+.part3 {
+  display: none;
+  flex-direction: column;
+  padding-bottom: 23px;
+  @media screen and (min-width: 1280px) {
+    justify-content: space-between;
+    flex-direction: row;
+  }
+}
