@@ -7,7 +7,7 @@ import { setBackgroundImage } from '../components/background-image';
 navigator.geolocation.getCurrentPosition(success, defaultData);
 
 function defaultData() {
-  defaultReqWeather('Kyiv');
+  defaultReqWeather('Lipetsk');
 }
 
 function success(position) {

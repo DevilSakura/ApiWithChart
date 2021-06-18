@@ -4,7 +4,7 @@
 
 Поробовать [weather-lstu](https://foamy-mark.surge.sh) 
 
-htpps://foamy-mark.surge.sh
+https://foamy-mark.surge.sh
 
 - HTML/CSS
 
